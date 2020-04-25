@@ -10,15 +10,15 @@
     Müşteri adres bilgisi   
     Müşteri yaşı 
 """
-musteriAdi = 'Ali'
-musteriSoyad = 'Yılmaz'
-musteriAdSoyad = musteriAdi + ' ' + musteriSoyad
-print(musteriAdSoyad)
-musteriCinsiyet = True # Erkek
-musteriTcKimlik = '13165465445'
-musteriDogumYili = 1989
-musteriAdresi = 'İstanbul Kadıköy'
-musteriYasi = 2019 - musteriDogumYili 
+# musteriAdi = 'Ali'
+# musteriSoyad = 'Yılmaz'
+# musteriAdSoyad = musteriAdi + ' ' + musteriSoyad
+# print(musteriAdSoyad)
+# musteriCinsiyet = True # Erkek
+# musteriTcKimlik = '13165465445'
+# musteriDogumYili = 1989
+# musteriAdresi = 'İstanbul Kadıköy'
+# musteriYasi = 2019 - musteriDogumYili 
 
 """
     2- Aşağıdaki siparişlerin toplam bilgisini hesaplayınız.
@@ -28,10 +28,10 @@ musteriYasi = 2019 - musteriDogumYili
     Sipariş 3 => 356.95 TL
 
 """
-order1 = 110
-order2 = 1100.5
-order3 = 356.95
+# order1 = 110
+# order2 = 1100.5
+# order3 = 356.95
 
-total = order1 + order2 + order3
+# total = order1 + order2 + order3
 
-print("Total:", total)
+# print("Total:", total)
