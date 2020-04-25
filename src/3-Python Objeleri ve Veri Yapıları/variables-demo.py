@@ -10,6 +10,16 @@
     Müşteri adres bilgisi   
     Müşteri yaşı 
 """
+# musteriAd='Musa'
+# musteriSoy='Görgeç'
+# mAdSoy=musteriAd+' '+musteriSoy
+# mCins=True
+# mTC='33344991190'
+# mDogumYili=1999
+# mAddress="Sahibiata"
+# mAge=2020-mDogumYili
+# print(mAdSoy,mCins,mTC,mAddress,mAge)
+
 # musteriAdi = 'Ali'
 # musteriSoyad = 'Yılmaz'
 # musteriAdSoyad = musteriAdi + ' ' + musteriSoyad
@@ -28,6 +38,12 @@
     Sipariş 3 => 356.95 TL
 
 """
+s1=110
+s2=1100.5
+s3=356.95
+
+t=s1+s2+s3
+print("Toplam "+str(t))
 # order1 = 110
 # order2 = 1100.5
 # order3 = 356.95
