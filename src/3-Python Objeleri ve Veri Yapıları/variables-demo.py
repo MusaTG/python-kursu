@@ -10,15 +10,15 @@
     Müşteri adres bilgisi   
     Müşteri yaşı 
 """
-# musteriAd='Musa'
-# musteriSoy='Görgeç'
-# mAdSoy=musteriAd+' '+musteriSoy
-# mCins=True
-# mTC='33344991190'
-# mDogumYili=1999
-# mAddress="Sahibiata"
-# mAge=2020-mDogumYili
-# print(mAdSoy,mCins,mTC,mAddress,mAge)
+musteriAd='Musa'
+musteriSoy='Görgeç'
+mAdSoy=musteriAd+' '+musteriSoy
+mCins=True
+mTC='33344991190'
+mDogumYili='1999'
+mAddress="Sahibiata"
+mAge=2020-int(mDogumYili)
+print(mAdSoy,float(mCins),mTC,mAddress,mAge)
 
 # musteriAdi = 'Ali'
 # musteriSoyad = 'Yılmaz'
