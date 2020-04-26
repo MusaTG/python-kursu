@@ -22,13 +22,51 @@
 
     2- Öğrenci numarasını kullanıcıdan alıp ilgili öğrenci bilgisini gösterin.
 '''
+students={}
 
-ogrenciler = {}
+number=input("Öğrenci No Giriniz:")
+name=input("Öğrenci Adını Giriniz:")
+surname=input("Öğrenci Soyadını Giriniz:")
+phone=input("Öğrenci Telefonu Giriniz:")
+students[number]={
+    'Adı':name,
+    'Soyad':surname,
+    'Telefon':phone
+}
 
-number = input("öğrenci no: ")
-name = input("öğrenci adı: ")
-surname = input("öğrenci soyad: ")
-phone = input("öğrenci telefon: ")
+number=input("Öğrenci No Giriniz:")
+name=input("Öğrenci Adını Giriniz:")
+surname=input("Öğrenci Soyadını Giriniz:")
+phone=input("Öğrenci Telefonu Giriniz:")
+students[number]={
+    'Adı':name,
+    'Soyad':surname,
+    'Telefon':phone
+}
+
+number=input("Öğrenci No Giriniz:")
+name=input("Öğrenci Adını Giriniz:")
+surname=input("Öğrenci Soyadını Giriniz:")
+phone=input("Öğrenci Telefonu Giriniz:")
+students[number]={
+    'Adı':name,
+    'Soyad':surname,
+    'Telefon':phone
+}
+
+print(students)
+print('*'*50)
+
+number=input('Öğrenci No Girinz:')
+ogr=students[number]
+print(f"{number} nolu öğrencinin adı {ogr['Adı']} {ogr['Soyad']} telefonu {ogr['Telefon']}")
+
+# ogrenciler = {}
+
+# number = input("öğrenci no: ")
+# name = input("öğrenci adı: ")
+# surname = input("öğrenci soyad: ")
+# phone = input("öğrenci telefon: ")
 
 # ogrenciler[number] = {
 #     'ad': name,
@@ -36,44 +74,44 @@ phone = input("öğrenci telefon: ")
 #     'telefon': phone
 # }
 
-ogrenciler.update({
-    number: {
-        'ad': name,
-        'soyad': surname,
-        'telefon':phone 
-    }
-})
+# ogrenciler.update({
+#     number: {
+#         'ad': name,
+#         'soyad': surname,
+#         'telefon':phone 
+#     }
+# })
 
-number = input("öğrenci no: ")
-name = input("öğrenci adı: ")
-surname = input("öğrenci soyad: ")
-phone = input("öğrenci telefon: ")
+# number = input("öğrenci no: ")
+# name = input("öğrenci adı: ")
+# surname = input("öğrenci soyad: ")
+# phone = input("öğrenci telefon: ")
 
-ogrenciler.update({
-    number: {
-        'ad': name,
-        'soyad': surname,
-        'telefon':phone 
-    }
-})
+# ogrenciler.update({
+#     number: {
+#         'ad': name,
+#         'soyad': surname,
+#         'telefon':phone 
+#     }
+# })
 
-number = input("öğrenci no: ")
-name = input("öğrenci adı: ")
-surname = input("öğrenci soyad: ")
-phone = input("öğrenci telefon: ")
+# number = input("öğrenci no: ")
+# name = input("öğrenci adı: ")
+# surname = input("öğrenci soyad: ")
+# phone = input("öğrenci telefon: ")
 
-ogrenciler.update({
-    number: {
-        'ad': name,
-        'soyad': surname,
-        'telefon':phone 
-    }
-})
+# ogrenciler.update({
+#     number: {
+#         'ad': name,
+#         'soyad': surname,
+#         'telefon':phone 
+#     }
+# })
 
-print('*'*50)
+# print('*'*50)
 
-ogrNo = input('öğrenci no: ')
-ogrenci = ogrenciler[ogrNo]
-print(ogrenci)
+# ogrNo = input('öğrenci no: ')
+# ogrenci = ogrenciler[ogrNo]
+# print(ogrenci)
 
-print(f"Aradığınız {ogrNo} nolu öğrencinin adı: {ogrenci['ad']} soyadı: {ogrenci['soyad']} ve telefonu ise {ogrenci['telefon']}")
+# print(f"Aradığınız {ogrNo} nolu öğrencinin adı: {ogrenci['ad']} soyadı: {ogrenci['soyad']} ve telefonu ise {ogrenci['telefon']}")
