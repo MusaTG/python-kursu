@@ -20,7 +20,10 @@ mAddress="Sahibiata"
 mAge=2020-int(mDogumYili)
 print(mAdSoy,float(mCins),mTC,mAddress,mAge)
 
-# musteriAdi = 'Ali'
+
+
+
+
 # musteriSoyad = 'Yılmaz'
 # musteriAdSoyad = musteriAdi + ' ' + musteriSoyad
 # print(musteriAdSoyad)
